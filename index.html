@@ -1262,8 +1262,8 @@
       .phone-desc {
         display: none;
       }
-      .phone-number {
-        font-size: 13px;
+      .phone-link {
+        display: none;
       }
       .nav-actions .btn-primary {
         padding: 8px 14px;
@@ -1372,22 +1372,67 @@
         padding: 24px 16px;
         border-radius: 20px;
       }
+      .calc-layout {
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+      }
       .calc-card {
-        padding: 20px 16px;
+        padding: 16px 12px;
         border-radius: 18px;
+      }
+      .calc-group-title {
+        font-size: 13px;
+        margin-bottom: 10px;
       }
       .calc-options {
         grid-template-columns: 1fr;
-        gap: 10px;
+        gap: 6px;
+      }
+      .calc-btn-radio {
+        padding: 8px 10px;
+      }
+      .calc-btn-radio span {
+        font-size: 11px;
+      }
+      .calc-checkboxes {
+        gap: 6px;
+      }
+      .calc-check-item {
+        padding: 8px 10px;
+      }
+      .calc-check-label {
+        font-size: 11px;
+        gap: 6px;
       }
       .calc-summary {
-        padding: 24px 20px;
+        padding: 20px 16px;
         border-radius: 18px;
-        position: static;
-        margin-top: 20px;
+        position: sticky;
+        top: 80px;
+        margin-top: 0;
+      }
+      .calc-summary-title {
+        font-size: 11px;
       }
       .calc-price {
-        font-size: 32px;
+        font-size: 24px;
+      }
+      .calc-note {
+        font-size: 11px;
+        margin-bottom: 14px;
+        padding-bottom: 12px;
+      }
+      .calc-features {
+        margin-bottom: 16px;
+      }
+      .calc-features li {
+        font-size: 11px;
+        gap: 6px;
+        margin-bottom: 6px;
+      }
+      .calc-features svg {
+        width: 14px;
+        height: 14px;
       }
       .process-grid {
         grid-template-columns: 1fr;
