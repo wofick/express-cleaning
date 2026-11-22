@@ -1373,8 +1373,8 @@
         border-radius: 20px;
       }
       .calc-layout {
-        grid-template-columns: 1fr 1fr;
-        gap: 16px;
+        grid-template-columns: 1fr;
+        gap: 12px;
       }
       .calc-card {
         padding: 16px 12px;
@@ -1407,8 +1407,8 @@
       .calc-summary {
         padding: 20px 16px;
         border-radius: 18px;
-        position: sticky;
-        top: 80px;
+        position: static;
+        top: auto;
         margin-top: 0;
       }
       .calc-summary-title {
@@ -1524,6 +1524,7 @@
         box-shadow: 0 4px 14px rgba(37, 211, 102, 0.35);
       }
     }
+    img, video, iframe, canvas, svg { max-width: 100%; height: auto; }
   </style>
 </head>
 <body>
